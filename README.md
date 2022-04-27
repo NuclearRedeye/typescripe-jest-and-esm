@@ -13,6 +13,7 @@ You can build the project using...
 
 ```sh
 nvm use
+npm install
 npm run build
 ```
 
