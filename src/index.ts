@@ -4,8 +4,8 @@ import { Subtract } from './api/subtract.js';
 import { Multiply } from './api/multiply.js';
 import { Divide } from './api/divide.js';
 
-const a = Number(argv[2]) || 1;
-const b = Number(argv[3]) || 1;
+const a: number = Number(argv[2]) || 1;
+const b: number = Number(argv[3]) || 1;
 
 console.log(`${a} + ${b} = ${Add(a, b)}` );
 console.log(`${a} - ${b} = ${Subtract(a, b)}` );
