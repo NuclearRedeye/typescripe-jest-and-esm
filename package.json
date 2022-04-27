@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "test": "jest ./out/debug/**/*.test.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js ./out/debug/**/*.test.js",
     "start": "node ./out/debug/index.js"
   },
   "author": "",
