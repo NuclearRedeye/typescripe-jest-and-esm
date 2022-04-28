@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "ESNEXT",
     "module": "ESNext",
-    "allowJs": true,
     "declaration": true,
     "sourceMap": true,
     "outDir": "./out/debug/",
